@@ -1,0 +1,40 @@
+.card__list {
+    display: flex;
+}
+
+.card__list__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.card__list__graphics {
+    display: flex;
+    background-color: var(--primary-bkg-bt-color);
+    height: 120px;
+    margin-bottom: 30px;
+    justify-content: center;
+    border-radius: 4px;
+    align-items: center;
+}
+
+.card__list__icon {
+    width: 70px;
+    height: 70px;
+}
+
+.card__list__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-title-color);
+}
+
+.card__list__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    margin-top: 10px;
+    width: 270px;
+}

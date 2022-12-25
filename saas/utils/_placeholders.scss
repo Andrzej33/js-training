@@ -1,0 +1,9 @@
+%tnrans-color {
+    transition: color var(--transition-duration) var(--transition-cub);
+}
+
+%trans-center {
+    position: absolute;
+        left: 50%;
+        top: 50%;
+}

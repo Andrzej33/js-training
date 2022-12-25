@@ -1,0 +1,19 @@
+
+
+body {
+    font-family: var(--main-font-style), sans-serif;
+    color: var(--primary-text-color);
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
